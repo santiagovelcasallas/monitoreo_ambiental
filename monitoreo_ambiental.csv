@@ -1,0 +1,501 @@
+ID_Sensor,Ciudad,Tipo_Zona,PM2_5_Ug_m3,Temperatura_C,Humedad_Relativa_Pct,Presencia_Lluvia,Nivel_Ruido_dB,Indice_Calidad_Aire_ICA,Hora_Lectura
+SENSOR_0000,Bogotá,Industrial,47.54,32.7,93,False,75.1,Muy Dañina,10:10
+SENSOR_0001,Bogotá,Industrial,76.15,20.8,30,False,76.0,Dañina para grupos sensibles,09:49
+SENSOR_0002,Medellín,Residencial,68.6,12.2,92,False,76.4,Moderada,16:02
+SENSOR_0003,Barranquilla,Vía Principal,115.25,24.5,63,True,40.0,Moderada,04:16
+SENSOR_0004,Bogotá,Vía Principal,65.95,12.4,39,True,87.7,Moderada,02:57
+SENSOR_0005,Medellín,Comercial,141.82,14.4,36,True,80.7,Peligrosa,16:40
+SENSOR_0006,Medellín,Residencial,135.87,20.5,85,False,85.2,Dañina para grupos sensibles,12:11
+SENSOR_0007,Barranquilla,Vía Principal,131.46,23.4,66,False,40.8,Buena,20:50
+SENSOR_0008,Cali,Industrial,15.33,19.3,58,True,86.7,Moderada,19:25
+SENSOR_0009,Barranquilla,Comercial,128.87,27.1,41,True,80.5,Buena,20:47
+SENSOR_0010,Cali,Parque Natural,118.34,13.4,46,False,81.9,Dañina para grupos sensibles,10:54
+SENSOR_0011,Medellín,Industrial,20.01,15.8,77,False,44.7,Peligrosa,19:33
+SENSOR_0012,Bogotá,Residencial,20.58,30.1,55,False,76.9,Dañina para grupos sensibles,15:11
+SENSOR_0013,Bucaramanga,Vía Principal,19.67,15.7,41,False,88.0,Muy Dañina,22:34
+SENSOR_0014,Medellín,Industrial,6.64,28.6,50,False,73.9,Moderada,14:13
+SENSOR_0015,Bogotá,Parque Natural,84.55,13.4,71,False,68.5,Peligrosa,12:52
+SENSOR_0016,Medellín,Parque Natural,146.14,22.6,90,False,87.3,Muy Dañina,06:09
+SENSOR_0017,Barranquilla,Residencial,68.61,16.6,87,False,62.1,Moderada,17:56
+SENSOR_0018,Cali,Industrial,83.41,14.9,83,False,70.0,Dañina para grupos sensibles,03:29
+SENSOR_0019,Medellín,Comercial,145.36,26.7,63,True,63.8,Dañina para grupos sensibles,18:47
+SENSOR_0020,Bogotá,Industrial,42.0,36.1,36,True,86.6,Dañina,20:42
+SENSOR_0021,Barranquilla,Parque Natural,129.48,13.4,64,False,43.8,Dañina,03:37
+SENSOR_0022,Bucaramanga,Residencial,84.23,23.0,44,False,65.1,Dañina para grupos sensibles,18:53
+SENSOR_0023,Barranquilla,Residencial,87.57,30.4,94,False,74.3,Dañina para grupos sensibles,10:45
+SENSOR_0024,Cali,Comercial,54.76,24.0,54,True,79.6,Buena,05:10
+SENSOR_0025,Barranquilla,Residencial,86.43,33.0,88,False,69.2,Buena,06:47
+SENSOR_0026,Bucaramanga,Residencial,15.61,16.7,35,False,85.4,Muy Dañina,19:48
+SENSOR_0027,Bogotá,Residencial,115.87,36.9,81,True,87.1,Dañina,15:15
+SENSOR_0028,Medellín,Residencial,46.28,22.0,50,False,43.2,Dañina,12:31
+SENSOR_0029,Cali,Residencial,133.7,20.9,61,False,60.1,Dañina para grupos sensibles,17:52
+SENSOR_0030,Bucaramanga,Parque Natural,58.34,34.7,82,False,41.2,Dañina para grupos sensibles,20:45
+SENSOR_0031,Cali,Industrial,25.71,26.7,88,False,56.5,Muy Dañina,14:47
+SENSOR_0032,Barranquilla,Vía Principal,105.9,25.4,91,False,66.8,Peligrosa,02:50
+SENSOR_0033,Cali,Residencial,28.86,30.9,33,False,85.5,Peligrosa,02:26
+SENSOR_0034,Bucaramanga,Vía Principal,114.28,27.1,47,False,82.3,Peligrosa,12:30
+SENSOR_0035,Medellín,Vía Principal,145.38,16.2,85,False,46.4,Dañina,03:06
+SENSOR_0036,Medellín,Parque Natural,118.04,29.5,53,False,44.7,Buena,05:13
+SENSOR_0037,Cali,Residencial,8.26,15.5,42,False,69.5,Peligrosa,09:44
+SENSOR_0038,Bogotá,Vía Principal,91.98,33.0,91,True,66.6,Moderada,18:30
+SENSOR_0039,Cali,Residencial,105.83,37.7,83,False,53.3,Muy Dañina,18:24
+SENSOR_0040,Barranquilla,Comercial,124.69,21.8,44,False,85.0,Peligrosa,06:36
+SENSOR_0041,Medellín,Comercial,13.12,23.6,32,False,86.4,Moderada,01:34
+SENSOR_0042,Medellín,Comercial,74.62,13.2,66,False,60.1,Peligrosa,00:57
+SENSOR_0043,Medellín,Vía Principal,82.63,12.4,66,True,84.5,Buena,20:45
+SENSOR_0044,Bogotá,Comercial,29.52,36.0,32,False,59.2,Buena,18:55
+SENSOR_0045,Bogotá,Parque Natural,51.76,15.3,92,True,76.8,Peligrosa,21:11
+SENSOR_0046,Bucaramanga,Parque Natural,68.83,23.6,64,True,63.8,Moderada,18:17
+SENSOR_0047,Cali,Vía Principal,125.82,33.2,81,False,46.1,Muy Dañina,22:54
+SENSOR_0048,Cali,Residencial,139.76,35.1,57,True,86.4,Moderada,16:32
+SENSOR_0049,Barranquilla,Industrial,96.12,25.5,47,False,62.7,Muy Dañina,17:40
+SENSOR_0050,Medellín,Residencial,62.27,26.7,65,False,76.7,Peligrosa,10:23
+SENSOR_0051,Bogotá,Residencial,41.83,29.4,62,False,58.4,Muy Dañina,06:41
+SENSOR_0052,Barranquilla,Residencial,147.41,37.0,93,False,40.9,Dañina para grupos sensibles,13:00
+SENSOR_0053,Barranquilla,Residencial,147.54,27.7,55,True,45.0,Dañina,16:26
+SENSOR_0054,Bogotá,Industrial,139.12,26.5,77,True,64.8,Dañina,00:37
+SENSOR_0055,Cali,Comercial,118.92,12.4,69,False,74.5,Buena,11:40
+SENSOR_0056,Medellín,Residencial,52.24,14.1,46,False,56.7,Dañina para grupos sensibles,18:24
+SENSOR_0057,Cali,Parque Natural,123.47,27.0,69,False,74.8,Dañina,00:04
+SENSOR_0058,Barranquilla,Vía Principal,64.27,36.3,36,False,74.9,Peligrosa,09:04
+SENSOR_0059,Medellín,Vía Principal,52.38,34.5,86,True,75.2,Muy Dañina,06:08
+SENSOR_0060,Bucaramanga,Parque Natural,113.01,37.5,37,False,64.6,Muy Dañina,07:57
+SENSOR_0061,Barranquilla,Residencial,16.55,25.7,85,False,85.7,Moderada,01:33
+SENSOR_0062,Cali,Industrial,12.04,32.5,60,True,64.5,Moderada,21:55
+SENSOR_0063,Cali,Comercial,69.95,33.9,88,True,62.5,Muy Dañina,08:19
+SENSOR_0064,Cali,Vía Principal,69.62,28.8,87,True,50.0,Peligrosa,02:08
+SENSOR_0065,Bogotá,Comercial,134.87,20.8,41,True,55.4,Muy Dañina,00:19
+SENSOR_0066,Barranquilla,Industrial,23.29,24.2,77,False,42.1,Moderada,04:00
+SENSOR_0067,Medellín,Vía Principal,22.88,34.3,60,True,71.7,Dañina,23:17
+SENSOR_0068,Cali,Comercial,26.38,19.8,92,True,52.4,Buena,05:26
+SENSOR_0069,Cali,Industrial,9.31,36.0,68,True,55.2,Moderada,02:17
+SENSOR_0070,Bogotá,Comercial,15.4,18.0,49,False,78.5,Peligrosa,22:32
+SENSOR_0071,Medellín,Residencial,100.68,31.5,77,False,56.4,Dañina,13:54
+SENSOR_0072,Barranquilla,Industrial,67.58,28.4,83,True,52.1,Dañina,02:36
+SENSOR_0073,Bucaramanga,Comercial,115.72,31.5,58,False,48.5,Dañina,14:50
+SENSOR_0074,Bogotá,Residencial,148.93,23.4,77,True,78.7,Dañina para grupos sensibles,20:43
+SENSOR_0075,Barranquilla,Residencial,100.56,36.2,85,False,46.5,Dañina para grupos sensibles,16:21
+SENSOR_0076,Bucaramanga,Industrial,12.32,28.4,46,True,62.7,Dañina,03:16
+SENSOR_0077,Cali,Parque Natural,20.16,19.5,38,False,65.3,Peligrosa,18:08
+SENSOR_0078,Cali,Vía Principal,132.75,28.6,63,False,74.4,Muy Dañina,04:24
+SENSOR_0079,Medellín,Industrial,81.49,19.5,74,False,71.7,Peligrosa,23:38
+SENSOR_0080,Bucaramanga,Residencial,124.6,19.6,38,True,80.5,Dañina para grupos sensibles,11:23
+SENSOR_0081,Cali,Residencial,129.21,22.4,36,False,42.2,Moderada,21:18
+SENSOR_0082,Cali,Industrial,139.51,34.2,45,False,54.8,Dañina para grupos sensibles,02:46
+SENSOR_0083,Medellín,Parque Natural,142.73,25.0,48,True,54.0,Muy Dañina,13:44
+SENSOR_0084,Barranquilla,Vía Principal,85.45,29.7,35,False,47.3,Buena,12:07
+SENSOR_0085,Cali,Comercial,54.45,22.2,40,True,54.5,Dañina para grupos sensibles,08:25
+SENSOR_0086,Bogotá,Industrial,144.47,18.9,90,True,55.5,Peligrosa,00:11
+SENSOR_0087,Bogotá,Vía Principal,84.37,36.8,71,True,66.1,Peligrosa,03:05
+SENSOR_0088,Barranquilla,Vía Principal,14.32,27.7,42,False,73.2,Dañina,17:32
+SENSOR_0089,Bucaramanga,Residencial,98.2,36.3,41,False,59.1,Dañina,22:42
+SENSOR_0090,Medellín,Comercial,90.21,17.3,49,False,76.0,Dañina,07:10
+SENSOR_0091,Bogotá,Industrial,134.89,15.8,79,True,56.8,Buena,21:37
+SENSOR_0092,Bogotá,Residencial,99.71,34.3,65,False,54.5,Muy Dañina,19:46
+SENSOR_0093,Barranquilla,Residencial,55.61,29.7,66,True,67.1,Moderada,07:22
+SENSOR_0094,Bucaramanga,Parque Natural,145.1,16.9,41,False,41.2,Peligrosa,16:30
+SENSOR_0095,Bucaramanga,Vía Principal,121.23,19.0,69,False,44.0,Peligrosa,11:05
+SENSOR_0096,Barranquilla,Industrial,96.41,32.8,83,True,60.9,Muy Dañina,22:16
+SENSOR_0097,Bogotá,Industrial,47.47,23.8,31,False,87.1,Buena,20:12
+SENSOR_0098,Medellín,Industrial,59.16,29.4,79,False,76.1,Dañina,14:39
+SENSOR_0099,Bogotá,Residencial,102.15,20.3,70,False,44.4,Muy Dañina,11:28
+SENSOR_0100,Bucaramanga,Parque Natural,15.44,21.9,74,False,82.3,Moderada,07:16
+SENSOR_0101,Bogotá,Comercial,42.22,37.8,38,False,76.6,Dañina,08:28
+SENSOR_0102,Medellín,Residencial,108.52,18.4,91,False,70.5,Moderada,01:57
+SENSOR_0103,Cali,Comercial,74.6,25.2,76,False,81.0,Dañina para grupos sensibles,04:34
+SENSOR_0104,Bogotá,Parque Natural,63.35,34.0,34,True,60.2,Moderada,00:43
+SENSOR_0105,Barranquilla,Vía Principal,26.96,18.2,30,False,51.1,Dañina,09:25
+SENSOR_0106,Cali,Industrial,69.07,22.8,73,False,65.6,Dañina para grupos sensibles,12:12
+SENSOR_0107,Barranquilla,Comercial,116.75,28.0,51,True,67.4,Dañina,10:12
+SENSOR_0108,Barranquilla,Residencial,43.28,24.5,67,True,66.9,Peligrosa,02:57
+SENSOR_0109,Barranquilla,Comercial,5.78,23.9,48,False,68.3,Dañina,19:20
+SENSOR_0110,Bogotá,Vía Principal,101.93,21.4,60,False,87.4,Dañina para grupos sensibles,20:47
+SENSOR_0111,Bucaramanga,Industrial,146.03,27.3,71,False,85.1,Moderada,18:27
+SENSOR_0112,Cali,Comercial,92.99,28.2,55,True,83.8,Peligrosa,09:15
+SENSOR_0113,Medellín,Vía Principal,22.39,29.0,42,False,80.1,Buena,13:43
+SENSOR_0114,Bucaramanga,Residencial,51.51,13.8,87,True,87.2,Buena,11:45
+SENSOR_0115,Bogotá,Parque Natural,130.81,28.4,47,False,44.9,Buena,12:20
+SENSOR_0116,Barranquilla,Residencial,38.72,36.8,32,False,53.3,Buena,21:59
+SENSOR_0117,Medellín,Industrial,93.12,26.1,84,True,64.8,Muy Dañina,16:57
+SENSOR_0118,Cali,Residencial,63.39,30.6,87,False,82.3,Buena,07:38
+SENSOR_0119,Bucaramanga,Residencial,35.14,26.5,92,False,65.3,Dañina para grupos sensibles,15:08
+SENSOR_0120,Bucaramanga,Residencial,122.94,34.2,81,False,77.4,Buena,14:23
+SENSOR_0121,Medellín,Residencial,112.71,36.2,53,False,46.9,Dañina,11:43
+SENSOR_0122,Bogotá,Industrial,100.93,16.8,38,False,52.6,Buena,13:19
+SENSOR_0123,Cali,Vía Principal,39.27,23.4,66,False,76.6,Moderada,14:34
+SENSOR_0124,Medellín,Comercial,19.19,22.2,82,True,48.2,Dañina para grupos sensibles,15:33
+SENSOR_0125,Barranquilla,Parque Natural,88.54,22.5,53,True,57.6,Dañina para grupos sensibles,22:01
+SENSOR_0126,Cali,Comercial,85.28,15.3,50,True,53.2,Peligrosa,08:02
+SENSOR_0127,Bucaramanga,Comercial,32.32,33.2,69,False,57.5,Muy Dañina,21:03
+SENSOR_0128,Medellín,Parque Natural,13.16,12.9,91,False,75.4,Dañina,23:23
+SENSOR_0129,Bucaramanga,Industrial,16.7,25.7,43,False,58.4,Dañina para grupos sensibles,22:17
+SENSOR_0130,Bucaramanga,Parque Natural,148.95,29.2,71,False,67.8,Moderada,07:06
+SENSOR_0131,Bucaramanga,Industrial,118.62,17.4,79,False,45.0,Buena,03:33
+SENSOR_0132,Bogotá,Comercial,138.69,35.6,90,False,80.3,Dañina para grupos sensibles,02:25
+SENSOR_0133,Bucaramanga,Industrial,33.28,33.8,33,False,58.5,Moderada,10:01
+SENSOR_0134,Barranquilla,Vía Principal,144.28,24.2,46,False,72.4,Buena,22:04
+SENSOR_0135,Barranquilla,Parque Natural,25.68,22.7,86,False,76.3,Muy Dañina,17:39
+SENSOR_0136,Cali,Vía Principal,78.82,18.2,77,True,50.5,Dañina para grupos sensibles,16:42
+SENSOR_0137,Bucaramanga,Comercial,125.31,31.0,73,False,84.2,Dañina para grupos sensibles,06:08
+SENSOR_0138,Bucaramanga,Parque Natural,55.72,15.4,74,True,70.8,Moderada,06:19
+SENSOR_0139,Medellín,Comercial,66.6,29.7,62,True,61.4,Peligrosa,20:00
+SENSOR_0140,Bogotá,Vía Principal,23.59,33.9,60,False,49.1,Dañina,00:00
+SENSOR_0141,Cali,Comercial,22.82,17.9,76,False,87.1,Muy Dañina,02:52
+SENSOR_0142,Bucaramanga,Parque Natural,94.84,34.5,35,False,77.8,Dañina,10:40
+SENSOR_0143,Medellín,Parque Natural,102.95,12.9,63,False,50.4,Dañina para grupos sensibles,04:32
+SENSOR_0144,Bogotá,Comercial,117.71,35.7,82,False,56.9,Dañina,10:41
+SENSOR_0145,Cali,Parque Natural,85.72,15.1,43,True,80.5,Buena,01:45
+SENSOR_0146,Cali,Parque Natural,98.64,28.8,45,False,74.8,Muy Dañina,16:09
+SENSOR_0147,Bucaramanga,Comercial,6.96,18.5,72,False,78.3,Dañina,21:16
+SENSOR_0148,Cali,Vía Principal,28.51,33.8,41,False,62.1,Buena,15:44
+SENSOR_0149,Medellín,Parque Natural,147.81,25.3,48,False,75.8,Moderada,04:39
+SENSOR_0150,Cali,Parque Natural,16.02,15.5,70,False,59.3,Dañina,05:13
+SENSOR_0151,Barranquilla,Parque Natural,103.42,26.8,82,True,50.6,Muy Dañina,03:51
+SENSOR_0152,Medellín,Parque Natural,30.53,22.6,58,False,71.6,Buena,03:49
+SENSOR_0153,Bogotá,Comercial,108.92,29.2,88,False,88.8,Dañina,14:19
+SENSOR_0154,Bogotá,Vía Principal,107.37,34.9,93,False,55.5,Moderada,10:40
+SENSOR_0155,Bucaramanga,Vía Principal,38.96,22.6,53,True,63.0,Dañina,23:58
+SENSOR_0156,Bucaramanga,Industrial,44.1,19.5,45,False,73.7,Buena,14:30
+SENSOR_0157,Barranquilla,Parque Natural,99.94,12.4,81,False,67.1,Dañina,05:15
+SENSOR_0158,Bogotá,Parque Natural,61.56,26.9,35,True,82.2,Muy Dañina,16:36
+SENSOR_0159,Bogotá,Industrial,33.21,22.5,66,False,78.1,Dañina para grupos sensibles,16:08
+SENSOR_0160,Bogotá,Vía Principal,111.09,21.7,33,True,42.9,Buena,21:05
+SENSOR_0161,Bogotá,Residencial,27.35,16.8,67,False,89.9,Buena,01:29
+SENSOR_0162,Cali,Residencial,129.07,23.2,70,False,77.6,Buena,06:33
+SENSOR_0163,Medellín,Vía Principal,79.63,37.6,43,False,83.2,Buena,11:35
+SENSOR_0164,Medellín,Parque Natural,20.33,19.7,80,False,72.6,Dañina,11:17
+SENSOR_0165,Barranquilla,Residencial,105.64,27.6,94,True,82.8,Muy Dañina,14:21
+SENSOR_0166,Cali,Comercial,80.28,32.2,81,False,45.6,Moderada,09:26
+SENSOR_0167,Bogotá,Comercial,48.22,31.5,59,False,57.4,Muy Dañina,22:16
+SENSOR_0168,Bogotá,Industrial,66.27,20.5,86,True,83.8,Buena,11:42
+SENSOR_0169,Bucaramanga,Vía Principal,48.26,27.9,59,False,50.1,Peligrosa,10:12
+SENSOR_0170,Bucaramanga,Vía Principal,43.14,34.7,71,False,43.9,Dañina,00:34
+SENSOR_0171,Barranquilla,Residencial,28.72,12.4,40,True,79.4,Peligrosa,02:55
+SENSOR_0172,Bogotá,Parque Natural,57.6,23.3,56,True,81.8,Dañina,12:36
+SENSOR_0173,Barranquilla,Vía Principal,41.39,17.8,53,True,48.1,Buena,20:29
+SENSOR_0174,Cali,Residencial,104.1,22.1,68,False,82.7,Dañina,00:58
+SENSOR_0175,Medellín,Residencial,104.16,22.8,47,False,74.3,Buena,01:57
+SENSOR_0176,Bogotá,Vía Principal,77.77,31.4,74,False,66.0,Muy Dañina,19:15
+SENSOR_0177,Cali,Residencial,117.8,14.4,41,False,81.5,Dañina para grupos sensibles,16:32
+SENSOR_0178,Bogotá,Industrial,126.99,25.3,78,False,61.0,Dañina,21:44
+SENSOR_0179,Bucaramanga,Industrial,89.07,26.7,60,False,49.7,Buena,18:44
+SENSOR_0180,Barranquilla,Vía Principal,94.75,24.8,51,True,54.2,Peligrosa,15:08
+SENSOR_0181,Bucaramanga,Parque Natural,46.02,31.0,73,False,65.3,Buena,14:31
+SENSOR_0182,Medellín,Industrial,134.76,22.0,93,False,66.6,Peligrosa,06:47
+SENSOR_0183,Bucaramanga,Industrial,8.51,36.6,54,False,80.3,Dañina,23:31
+SENSOR_0184,Bogotá,Vía Principal,55.55,24.5,80,False,79.6,Moderada,22:54
+SENSOR_0185,Bucaramanga,Comercial,109.66,26.9,36,False,69.1,Peligrosa,00:35
+SENSOR_0186,Bogotá,Residencial,16.61,33.5,35,False,79.0,Buena,02:31
+SENSOR_0187,Medellín,Industrial,31.56,19.2,53,True,49.6,Dañina,23:16
+SENSOR_0188,Bucaramanga,Comercial,90.45,14.0,48,False,42.5,Buena,21:11
+SENSOR_0189,Barranquilla,Parque Natural,86.2,30.4,38,True,83.7,Moderada,05:58
+SENSOR_0190,Barranquilla,Comercial,112.14,24.6,65,False,43.8,Dañina para grupos sensibles,03:13
+SENSOR_0191,Barranquilla,Vía Principal,122.83,35.3,69,True,52.3,Moderada,04:10
+SENSOR_0192,Bucaramanga,Parque Natural,23.64,37.5,53,True,74.8,Muy Dañina,16:09
+SENSOR_0193,Bucaramanga,Parque Natural,7.67,22.4,77,False,60.5,Dañina,14:19
+SENSOR_0194,Bucaramanga,Comercial,105.0,22.8,92,False,83.8,Moderada,03:22
+SENSOR_0195,Bogotá,Vía Principal,48.7,22.6,82,True,54.9,Dañina para grupos sensibles,08:55
+SENSOR_0196,Medellín,Industrial,95.77,20.4,83,False,40.6,Buena,21:08
+SENSOR_0197,Barranquilla,Comercial,26.83,32.3,71,False,55.0,Dañina,07:10
+SENSOR_0198,Bogotá,Industrial,73.01,31.7,74,True,68.9,Peligrosa,22:47
+SENSOR_0199,Barranquilla,Comercial,78.14,24.4,43,False,58.8,Moderada,03:22
+SENSOR_0200,Bogotá,Industrial,89.84,13.2,58,False,66.7,Dañina para grupos sensibles,10:00
+SENSOR_0201,Bucaramanga,Comercial,79.41,20.0,35,False,83.8,Moderada,20:07
+SENSOR_0202,Barranquilla,Parque Natural,76.88,19.6,36,False,85.6,Muy Dañina,00:08
+SENSOR_0203,Bucaramanga,Residencial,53.25,33.1,66,False,53.3,Dañina,20:55
+SENSOR_0204,Barranquilla,Parque Natural,15.32,14.3,82,False,63.1,Buena,21:12
+SENSOR_0205,Cali,Industrial,17.98,32.9,47,True,67.5,Dañina para grupos sensibles,09:44
+SENSOR_0206,Bogotá,Vía Principal,67.9,29.4,67,True,87.5,Moderada,21:16
+SENSOR_0207,Cali,Parque Natural,56.59,31.0,88,False,89.9,Dañina,13:00
+SENSOR_0208,Bogotá,Residencial,79.84,23.2,30,False,51.8,Moderada,04:01
+SENSOR_0209,Medellín,Industrial,49.2,29.7,73,False,76.3,Dañina,21:21
+SENSOR_0210,Barranquilla,Parque Natural,104.75,27.8,76,True,58.9,Muy Dañina,17:00
+SENSOR_0211,Medellín,Comercial,130.27,32.0,64,True,40.4,Moderada,17:16
+SENSOR_0212,Medellín,Vía Principal,48.34,23.6,89,False,40.5,Muy Dañina,12:06
+SENSOR_0213,Bogotá,Industrial,32.98,24.3,81,False,63.0,Peligrosa,10:33
+SENSOR_0214,Cali,Parque Natural,21.85,28.7,37,True,64.4,Peligrosa,21:25
+SENSOR_0215,Bucaramanga,Industrial,94.36,14.8,70,False,41.1,Dañina para grupos sensibles,05:47
+SENSOR_0216,Bogotá,Comercial,69.36,23.3,32,False,74.3,Muy Dañina,21:21
+SENSOR_0217,Bucaramanga,Residencial,32.26,37.3,43,False,54.7,Dañina,22:46
+SENSOR_0218,Medellín,Parque Natural,99.7,13.0,55,False,68.0,Dañina para grupos sensibles,01:47
+SENSOR_0219,Bucaramanga,Industrial,26.53,20.2,87,False,55.0,Moderada,06:01
+SENSOR_0220,Cali,Industrial,85.37,20.2,69,False,48.4,Moderada,09:17
+SENSOR_0221,Bogotá,Industrial,81.44,28.5,80,False,60.4,Dañina,11:16
+SENSOR_0222,Cali,Residencial,111.46,14.8,34,False,51.6,Buena,16:18
+SENSOR_0223,Cali,Industrial,12.99,28.3,61,False,66.7,Buena,02:55
+SENSOR_0224,Bogotá,Vía Principal,133.74,14.5,30,False,49.9,Moderada,18:33
+SENSOR_0225,Cali,Vía Principal,106.93,14.5,83,False,65.4,Dañina,16:56
+SENSOR_0226,Barranquilla,Industrial,36.34,30.9,40,False,47.9,Buena,20:48
+SENSOR_0227,Barranquilla,Vía Principal,31.59,20.4,82,False,73.5,Muy Dañina,02:21
+SENSOR_0228,Barranquilla,Parque Natural,67.59,37.4,37,False,77.7,Moderada,11:24
+SENSOR_0229,Bucaramanga,Vía Principal,123.55,13.0,54,True,45.5,Peligrosa,05:10
+SENSOR_0230,Cali,Industrial,127.23,23.6,69,True,63.4,Muy Dañina,18:05
+SENSOR_0231,Bogotá,Comercial,80.47,14.9,61,False,43.5,Dañina,20:13
+SENSOR_0232,Bogotá,Parque Natural,129.82,21.1,57,False,69.9,Peligrosa,23:52
+SENSOR_0233,Bucaramanga,Residencial,5.79,38.0,32,False,53.2,Muy Dañina,16:34
+SENSOR_0234,Bogotá,Industrial,10.1,35.1,91,False,66.4,Buena,02:50
+SENSOR_0235,Barranquilla,Residencial,137.21,13.3,56,False,65.9,Buena,01:58
+SENSOR_0236,Cali,Comercial,117.42,26.6,74,False,86.2,Peligrosa,07:51
+SENSOR_0237,Bogotá,Residencial,70.35,28.8,54,True,67.5,Dañina para grupos sensibles,09:52
+SENSOR_0238,Bogotá,Industrial,114.27,17.4,90,False,69.1,Moderada,21:56
+SENSOR_0239,Medellín,Industrial,143.57,15.8,73,False,60.1,Peligrosa,09:26
+SENSOR_0240,Medellín,Comercial,116.95,35.5,75,True,87.5,Dañina,04:54
+SENSOR_0241,Medellín,Industrial,127.14,37.2,43,False,78.9,Moderada,11:44
+SENSOR_0242,Cali,Comercial,115.29,37.8,37,False,54.3,Muy Dañina,13:06
+SENSOR_0243,Barranquilla,Comercial,29.39,32.5,77,True,82.2,Dañina,12:12
+SENSOR_0244,Barranquilla,Industrial,125.87,29.3,43,True,61.6,Dañina,15:40
+SENSOR_0245,Barranquilla,Vía Principal,33.29,21.0,94,False,81.4,Buena,12:46
+SENSOR_0246,Cali,Comercial,134.43,16.5,36,False,81.1,Muy Dañina,16:03
+SENSOR_0247,Cali,Industrial,71.5,14.1,78,True,49.4,Buena,16:26
+SENSOR_0248,Medellín,Vía Principal,103.16,30.0,84,True,75.1,Buena,06:21
+SENSOR_0249,Bogotá,Comercial,77.1,32.4,42,False,54.5,Dañina para grupos sensibles,18:13
+SENSOR_0250,Bucaramanga,Vía Principal,18.63,33.5,85,False,54.9,Buena,23:15
+SENSOR_0251,Bucaramanga,Parque Natural,47.15,35.8,85,False,54.8,Moderada,11:51
+SENSOR_0252,Bogotá,Parque Natural,147.64,34.9,44,True,76.3,Dañina,23:46
+SENSOR_0253,Medellín,Vía Principal,144.3,38.0,86,False,51.5,Buena,21:04
+SENSOR_0254,Bogotá,Comercial,51.47,18.3,87,False,40.0,Peligrosa,14:30
+SENSOR_0255,Bogotá,Industrial,149.46,31.8,64,False,75.8,Moderada,16:28
+SENSOR_0256,Bucaramanga,Residencial,127.6,27.2,45,False,48.6,Muy Dañina,07:08
+SENSOR_0257,Medellín,Industrial,93.59,18.8,37,False,45.2,Dañina,15:13
+SENSOR_0258,Cali,Residencial,10.82,37.5,74,False,51.9,Peligrosa,15:58
+SENSOR_0259,Bucaramanga,Residencial,135.71,35.3,69,False,59.0,Peligrosa,20:56
+SENSOR_0260,Cali,Comercial,85.83,15.3,83,False,63.8,Muy Dañina,08:12
+SENSOR_0261,Medellín,Vía Principal,130.93,12.7,43,False,42.2,Peligrosa,18:02
+SENSOR_0262,Bogotá,Industrial,125.99,29.9,88,False,88.5,Moderada,04:28
+SENSOR_0263,Barranquilla,Vía Principal,125.79,27.7,82,False,75.8,Muy Dañina,23:12
+SENSOR_0264,Barranquilla,Parque Natural,106.24,36.3,56,True,56.2,Peligrosa,05:35
+SENSOR_0265,Medellín,Comercial,47.26,18.1,76,False,55.9,Muy Dañina,22:57
+SENSOR_0266,Barranquilla,Comercial,53.74,14.2,35,True,62.4,Muy Dañina,03:50
+SENSOR_0267,Cali,Parque Natural,49.73,18.7,84,False,71.3,Buena,21:03
+SENSOR_0268,Barranquilla,Industrial,7.91,12.5,73,True,47.3,Buena,08:18
+SENSOR_0269,Medellín,Parque Natural,89.47,12.9,47,False,49.4,Buena,14:58
+SENSOR_0270,Medellín,Industrial,106.33,35.8,45,False,83.0,Peligrosa,17:53
+SENSOR_0271,Cali,Residencial,128.81,21.2,41,False,52.8,Dañina,23:24
+SENSOR_0272,Barranquilla,Comercial,25.32,22.7,49,False,59.0,Moderada,03:40
+SENSOR_0273,Barranquilla,Industrial,83.91,12.5,74,False,83.6,Peligrosa,15:36
+SENSOR_0274,Bogotá,Vía Principal,6.16,19.0,93,False,73.2,Buena,08:16
+SENSOR_0275,Bucaramanga,Vía Principal,18.79,32.9,88,False,57.1,Muy Dañina,08:47
+SENSOR_0276,Medellín,Comercial,12.86,28.0,51,True,74.2,Peligrosa,22:33
+SENSOR_0277,Bogotá,Parque Natural,110.19,31.6,76,False,41.0,Muy Dañina,09:34
+SENSOR_0278,Medellín,Parque Natural,16.75,23.6,58,False,76.8,Muy Dañina,12:14
+SENSOR_0279,Bogotá,Industrial,108.89,20.1,74,True,64.4,Muy Dañina,16:53
+SENSOR_0280,Bucaramanga,Parque Natural,41.2,24.6,38,False,80.7,Dañina para grupos sensibles,01:19
+SENSOR_0281,Bogotá,Comercial,132.27,20.4,53,False,87.7,Dañina,16:30
+SENSOR_0282,Medellín,Industrial,122.91,33.8,44,False,86.3,Moderada,19:09
+SENSOR_0283,Barranquilla,Residencial,143.89,19.7,65,False,85.5,Moderada,20:35
+SENSOR_0284,Medellín,Parque Natural,133.15,29.2,42,False,65.6,Buena,08:41
+SENSOR_0285,Cali,Parque Natural,140.33,15.6,73,True,58.0,Dañina para grupos sensibles,02:05
+SENSOR_0286,Cali,Industrial,129.52,29.9,65,True,63.3,Peligrosa,18:29
+SENSOR_0287,Cali,Vía Principal,105.54,35.7,90,False,74.5,Peligrosa,12:04
+SENSOR_0288,Cali,Parque Natural,29.69,27.8,69,True,84.2,Moderada,10:39
+SENSOR_0289,Bucaramanga,Comercial,44.4,26.6,56,True,50.3,Dañina,07:56
+SENSOR_0290,Barranquilla,Parque Natural,35.85,37.0,30,False,85.9,Muy Dañina,21:46
+SENSOR_0291,Barranquilla,Residencial,92.52,28.3,63,False,80.8,Buena,00:35
+SENSOR_0292,Medellín,Parque Natural,78.02,18.7,50,False,88.9,Dañina,19:59
+SENSOR_0293,Bogotá,Vía Principal,130.73,19.6,62,False,84.0,Moderada,10:34
+SENSOR_0294,Medellín,Parque Natural,143.14,30.3,36,False,54.0,Dañina para grupos sensibles,05:01
+SENSOR_0295,Medellín,Industrial,63.7,31.1,94,False,45.3,Buena,01:59
+SENSOR_0296,Medellín,Parque Natural,78.42,19.9,32,False,45.6,Moderada,12:59
+SENSOR_0297,Medellín,Vía Principal,145.87,21.0,80,False,54.6,Peligrosa,04:11
+SENSOR_0298,Barranquilla,Industrial,45.05,37.8,83,False,70.7,Buena,04:07
+SENSOR_0299,Bogotá,Comercial,119.9,14.7,88,False,80.2,Moderada,08:37
+SENSOR_0300,Medellín,Industrial,37.66,22.5,35,True,85.0,Peligrosa,00:57
+SENSOR_0301,Barranquilla,Residencial,103.81,13.6,58,False,71.2,Peligrosa,02:08
+SENSOR_0302,Medellín,Industrial,41.77,33.3,46,False,40.3,Muy Dañina,21:56
+SENSOR_0303,Cali,Comercial,133.14,14.4,89,False,49.3,Dañina para grupos sensibles,22:32
+SENSOR_0304,Medellín,Parque Natural,86.41,29.5,51,False,45.0,Muy Dañina,15:26
+SENSOR_0305,Medellín,Industrial,31.96,13.5,53,False,58.2,Moderada,04:13
+SENSOR_0306,Bucaramanga,Industrial,37.53,29.5,80,True,65.1,Dañina,00:19
+SENSOR_0307,Cali,Industrial,76.61,33.9,79,True,42.2,Muy Dañina,04:17
+SENSOR_0308,Bogotá,Industrial,144.43,22.4,40,False,57.4,Dañina,10:25
+SENSOR_0309,Medellín,Comercial,116.6,25.6,85,False,49.0,Peligrosa,08:50
+SENSOR_0310,Bogotá,Vía Principal,75.8,22.4,71,True,72.4,Moderada,23:34
+SENSOR_0311,Cali,Vía Principal,53.97,19.8,68,False,63.2,Dañina para grupos sensibles,13:35
+SENSOR_0312,Medellín,Industrial,84.64,32.9,77,True,64.8,Dañina,00:24
+SENSOR_0313,Bucaramanga,Comercial,113.51,19.1,86,False,61.4,Moderada,10:39
+SENSOR_0314,Barranquilla,Comercial,118.67,30.8,50,True,87.8,Dañina,23:02
+SENSOR_0315,Bucaramanga,Industrial,52.07,17.4,49,False,50.7,Muy Dañina,00:12
+SENSOR_0316,Bucaramanga,Residencial,109.57,18.5,44,False,65.8,Moderada,08:39
+SENSOR_0317,Barranquilla,Industrial,100.38,20.7,80,False,76.8,Muy Dañina,11:03
+SENSOR_0318,Barranquilla,Residencial,144.07,27.3,91,False,67.8,Buena,16:24
+SENSOR_0319,Barranquilla,Industrial,140.01,23.8,66,False,86.5,Moderada,19:53
+SENSOR_0320,Medellín,Residencial,119.46,31.4,35,False,58.9,Dañina,10:37
+SENSOR_0321,Bogotá,Residencial,109.89,17.6,55,False,63.2,Buena,01:20
+SENSOR_0322,Bogotá,Industrial,44.74,12.3,37,False,44.4,Muy Dañina,15:40
+SENSOR_0323,Barranquilla,Residencial,127.66,32.2,33,False,70.4,Muy Dañina,13:24
+SENSOR_0324,Bucaramanga,Parque Natural,66.99,33.4,50,False,54.4,Dañina,21:24
+SENSOR_0325,Cali,Vía Principal,44.47,13.5,60,False,48.0,Buena,11:23
+SENSOR_0326,Barranquilla,Comercial,60.7,27.9,50,True,67.2,Peligrosa,14:27
+SENSOR_0327,Bucaramanga,Residencial,126.21,21.8,54,False,66.6,Dañina para grupos sensibles,11:19
+SENSOR_0328,Bucaramanga,Residencial,26.55,32.6,44,True,43.8,Dañina,00:46
+SENSOR_0329,Medellín,Comercial,71.14,34.7,64,True,74.9,Muy Dañina,00:53
+SENSOR_0330,Medellín,Residencial,76.39,34.1,78,True,71.2,Moderada,23:49
+SENSOR_0331,Bogotá,Comercial,10.31,32.2,72,True,49.5,Buena,00:05
+SENSOR_0332,Bogotá,Industrial,33.38,19.0,70,True,63.5,Peligrosa,02:22
+SENSOR_0333,Cali,Parque Natural,124.88,33.1,66,False,76.0,Dañina para grupos sensibles,07:02
+SENSOR_0334,Cali,Parque Natural,125.46,25.9,86,True,66.5,Moderada,00:15
+SENSOR_0335,Cali,Vía Principal,47.4,13.4,71,False,59.8,Buena,13:13
+SENSOR_0336,Cali,Residencial,131.86,23.9,76,True,56.1,Peligrosa,06:16
+SENSOR_0337,Bucaramanga,Vía Principal,116.91,36.5,90,False,70.5,Dañina,09:43
+SENSOR_0338,Bucaramanga,Industrial,65.6,35.1,43,False,87.0,Peligrosa,10:57
+SENSOR_0339,Bogotá,Parque Natural,113.52,14.7,82,False,73.6,Dañina,15:10
+SENSOR_0340,Medellín,Industrial,144.39,31.3,63,False,43.7,Buena,14:08
+SENSOR_0341,Medellín,Industrial,71.55,33.0,53,False,63.0,Peligrosa,21:57
+SENSOR_0342,Barranquilla,Residencial,39.57,19.1,49,False,84.5,Dañina para grupos sensibles,02:36
+SENSOR_0343,Bucaramanga,Industrial,141.56,24.3,59,True,44.7,Peligrosa,18:15
+SENSOR_0344,Cali,Parque Natural,92.54,30.5,36,False,89.4,Buena,10:17
+SENSOR_0345,Cali,Vía Principal,20.26,23.4,65,False,87.5,Moderada,01:42
+SENSOR_0346,Barranquilla,Parque Natural,88.04,14.9,67,False,43.9,Moderada,16:24
+SENSOR_0347,Medellín,Residencial,77.58,30.4,81,False,86.7,Peligrosa,10:01
+SENSOR_0348,Cali,Parque Natural,129.06,35.7,44,False,58.2,Peligrosa,17:44
+SENSOR_0349,Medellín,Comercial,81.95,29.0,75,False,82.2,Dañina,23:12
+SENSOR_0350,Barranquilla,Vía Principal,42.01,32.1,52,False,60.9,Buena,07:17
+SENSOR_0351,Medellín,Comercial,102.97,21.3,41,False,62.0,Dañina,20:51
+SENSOR_0352,Medellín,Comercial,83.67,16.8,73,True,71.7,Dañina para grupos sensibles,22:59
+SENSOR_0353,Medellín,Residencial,38.79,28.7,44,False,78.7,Moderada,14:57
+SENSOR_0354,Cali,Industrial,88.18,20.5,78,False,41.7,Muy Dañina,23:24
+SENSOR_0355,Bogotá,Comercial,124.12,34.4,50,True,69.7,Muy Dañina,23:16
+SENSOR_0356,Bucaramanga,Parque Natural,9.14,15.2,44,True,49.3,Buena,06:40
+SENSOR_0357,Medellín,Industrial,96.47,23.3,43,False,57.3,Buena,13:42
+SENSOR_0358,Medellín,Parque Natural,55.69,22.3,71,False,57.4,Muy Dañina,18:49
+SENSOR_0359,Medellín,Parque Natural,47.44,36.4,44,True,63.5,Buena,10:25
+SENSOR_0360,Bogotá,Industrial,61.93,16.0,92,False,56.7,Moderada,10:43
+SENSOR_0361,Barranquilla,Industrial,54.59,12.3,56,True,45.4,Dañina para grupos sensibles,13:19
+SENSOR_0362,Cali,Parque Natural,125.67,18.2,82,False,47.3,Dañina para grupos sensibles,00:13
+SENSOR_0363,Bogotá,Residencial,44.85,33.3,81,False,41.7,Dañina,13:27
+SENSOR_0364,Medellín,Vía Principal,111.31,17.4,92,False,63.5,Moderada,05:35
+SENSOR_0365,Bogotá,Vía Principal,18.64,18.3,82,False,87.7,Buena,12:52
+SENSOR_0366,Bogotá,Residencial,142.95,15.4,86,False,45.8,Buena,18:33
+SENSOR_0367,Bogotá,Industrial,95.24,30.6,81,False,87.3,Dañina,11:06
+SENSOR_0368,Barranquilla,Parque Natural,107.47,13.8,72,True,76.7,Dañina,03:28
+SENSOR_0369,Bucaramanga,Vía Principal,48.22,20.6,36,False,71.9,Buena,02:25
+SENSOR_0370,Cali,Parque Natural,64.75,19.3,71,False,72.3,Buena,11:54
+SENSOR_0371,Barranquilla,Residencial,37.45,26.4,33,False,81.3,Moderada,16:41
+SENSOR_0372,Barranquilla,Parque Natural,140.22,31.0,34,False,45.3,Dañina,13:17
+SENSOR_0373,Bucaramanga,Residencial,75.78,25.9,70,True,65.2,Moderada,08:56
+SENSOR_0374,Barranquilla,Industrial,96.41,36.2,33,True,74.9,Peligrosa,09:57
+SENSOR_0375,Bogotá,Residencial,111.47,36.7,31,True,69.3,Buena,00:45
+SENSOR_0376,Bogotá,Residencial,58.81,21.4,50,False,81.6,Muy Dañina,04:00
+SENSOR_0377,Medellín,Vía Principal,109.41,32.2,72,False,43.6,Muy Dañina,05:45
+SENSOR_0378,Barranquilla,Parque Natural,103.02,31.2,38,False,74.5,Peligrosa,00:17
+SENSOR_0379,Medellín,Vía Principal,107.32,35.2,57,False,66.7,Buena,12:43
+SENSOR_0380,Cali,Comercial,75.94,23.6,55,False,59.0,Dañina,22:53
+SENSOR_0381,Bogotá,Residencial,60.53,25.8,32,False,57.0,Muy Dañina,16:57
+SENSOR_0382,Cali,Comercial,37.2,22.8,78,True,71.0,Dañina,03:29
+SENSOR_0383,Bucaramanga,Vía Principal,124.57,34.1,46,False,84.5,Muy Dañina,22:14
+SENSOR_0384,Bogotá,Parque Natural,93.21,18.0,92,True,64.8,Dañina,10:38
+SENSOR_0385,Cali,Vía Principal,69.43,18.2,84,True,81.2,Muy Dañina,07:16
+SENSOR_0386,Bucaramanga,Parque Natural,141.88,21.7,52,False,60.1,Dañina,14:30
+SENSOR_0387,Cali,Parque Natural,11.94,18.0,63,False,45.1,Peligrosa,19:04
+SENSOR_0388,Bucaramanga,Industrial,128.27,26.6,44,False,43.1,Moderada,22:25
+SENSOR_0389,Bucaramanga,Residencial,149.65,15.5,76,False,42.6,Dañina,12:10
+SENSOR_0390,Bogotá,Vía Principal,133.61,20.3,32,False,59.0,Moderada,07:10
+SENSOR_0391,Medellín,Parque Natural,122.51,35.7,57,False,56.9,Moderada,11:52
+SENSOR_0392,Bucaramanga,Vía Principal,59.27,22.6,32,False,75.9,Buena,20:31
+SENSOR_0393,Bucaramanga,Vía Principal,38.54,31.5,33,False,77.1,Peligrosa,16:21
+SENSOR_0394,Bogotá,Parque Natural,111.55,15.0,60,False,42.5,Moderada,22:01
+SENSOR_0395,Medellín,Comercial,49.16,18.4,74,True,51.1,Dañina para grupos sensibles,06:38
+SENSOR_0396,Barranquilla,Residencial,30.53,33.0,88,False,53.7,Moderada,16:22
+SENSOR_0397,Barranquilla,Residencial,119.05,31.8,74,False,67.4,Dañina,04:16
+SENSOR_0398,Medellín,Industrial,50.32,22.0,66,False,47.2,Moderada,09:21
+SENSOR_0399,Cali,Industrial,137.59,36.8,94,False,46.7,Dañina,20:07
+SENSOR_0400,Bogotá,Industrial,126.89,35.7,38,False,87.2,Dañina,03:18
+SENSOR_0401,Medellín,Residencial,127.91,37.0,46,True,80.2,Dañina para grupos sensibles,21:26
+SENSOR_0402,Barranquilla,Comercial,116.88,23.1,94,False,49.0,Moderada,09:09
+SENSOR_0403,Bucaramanga,Residencial,132.73,17.1,32,False,60.3,Moderada,20:23
+SENSOR_0404,Barranquilla,Residencial,121.83,28.3,55,True,57.8,Muy Dañina,06:46
+SENSOR_0405,Bucaramanga,Residencial,92.36,29.8,82,False,79.6,Muy Dañina,21:23
+SENSOR_0406,Bogotá,Residencial,47.89,15.3,60,False,65.5,Buena,12:50
+SENSOR_0407,Bucaramanga,Comercial,133.79,32.4,55,True,46.4,Dañina,23:19
+SENSOR_0408,Medellín,Industrial,126.89,12.5,52,False,76.9,Dañina para grupos sensibles,22:00
+SENSOR_0409,Bucaramanga,Vía Principal,73.57,24.6,59,False,59.8,Muy Dañina,08:27
+SENSOR_0410,Cali,Industrial,10.67,20.6,39,False,53.1,Moderada,14:10
+SENSOR_0411,Medellín,Industrial,97.59,31.2,93,False,58.8,Buena,18:28
+SENSOR_0412,Bogotá,Vía Principal,12.34,20.1,51,True,64.9,Dañina para grupos sensibles,22:53
+SENSOR_0413,Medellín,Residencial,139.31,33.5,44,True,57.2,Peligrosa,15:23
+SENSOR_0414,Cali,Comercial,144.44,27.5,85,False,52.1,Moderada,14:07
+SENSOR_0415,Bogotá,Comercial,32.48,32.6,49,False,59.9,Moderada,14:13
+SENSOR_0416,Barranquilla,Industrial,103.08,37.7,76,False,41.0,Peligrosa,07:57
+SENSOR_0417,Cali,Vía Principal,18.38,29.7,82,False,78.6,Dañina,12:01
+SENSOR_0418,Bogotá,Parque Natural,110.78,37.6,82,False,48.5,Dañina,17:52
+SENSOR_0419,Bucaramanga,Residencial,55.36,12.7,30,False,42.2,Muy Dañina,20:44
+SENSOR_0420,Medellín,Industrial,103.75,20.8,31,True,72.7,Muy Dañina,16:08
+SENSOR_0421,Bogotá,Comercial,59.07,14.8,87,True,78.7,Moderada,09:10
+SENSOR_0422,Medellín,Vía Principal,26.11,18.8,48,True,80.7,Moderada,11:55
+SENSOR_0423,Bucaramanga,Vía Principal,63.89,33.8,91,False,64.7,Muy Dañina,06:42
+SENSOR_0424,Bogotá,Industrial,21.34,12.8,41,True,50.3,Peligrosa,06:59
+SENSOR_0425,Barranquilla,Parque Natural,88.65,25.5,55,False,76.9,Muy Dañina,09:05
+SENSOR_0426,Cali,Comercial,10.94,26.7,56,False,75.0,Moderada,09:12
+SENSOR_0427,Bogotá,Industrial,81.46,26.6,58,False,52.3,Dañina para grupos sensibles,05:09
+SENSOR_0428,Bucaramanga,Parque Natural,133.52,24.4,44,False,85.2,Moderada,05:09
+SENSOR_0429,Bogotá,Vía Principal,126.49,32.6,75,False,45.2,Dañina para grupos sensibles,10:11
+SENSOR_0430,Medellín,Residencial,133.0,15.5,30,False,89.1,Dañina para grupos sensibles,00:14
+SENSOR_0431,Bogotá,Comercial,138.7,20.1,89,False,83.0,Moderada,12:43
+SENSOR_0432,Barranquilla,Comercial,20.16,28.0,86,False,74.4,Buena,08:19
+SENSOR_0433,Bogotá,Parque Natural,23.67,30.0,32,False,86.9,Muy Dañina,09:45
+SENSOR_0434,Cali,Industrial,85.77,22.5,47,False,76.1,Dañina,02:24
+SENSOR_0435,Bogotá,Vía Principal,134.63,34.8,81,False,49.5,Moderada,03:08
+SENSOR_0436,Medellín,Parque Natural,146.28,22.8,89,False,62.1,Dañina para grupos sensibles,19:58
+SENSOR_0437,Bogotá,Residencial,11.71,22.5,63,False,43.6,Moderada,23:07
+SENSOR_0438,Barranquilla,Residencial,56.59,12.9,89,False,59.5,Muy Dañina,18:28
+SENSOR_0439,Bucaramanga,Residencial,35.87,26.3,55,False,77.1,Peligrosa,13:44
+SENSOR_0440,Bogotá,Parque Natural,114.62,30.4,48,False,59.3,Dañina para grupos sensibles,02:58
+SENSOR_0441,Bogotá,Vía Principal,97.83,15.0,51,False,56.5,Dañina,00:25
+SENSOR_0442,Cali,Comercial,22.38,19.9,62,False,69.8,Dañina,18:46
+SENSOR_0443,Barranquilla,Industrial,75.11,32.3,67,False,83.6,Dañina,16:28
+SENSOR_0444,Bucaramanga,Comercial,104.39,21.5,64,False,42.4,Peligrosa,23:45
+SENSOR_0445,Medellín,Vía Principal,117.96,18.3,39,False,59.3,Buena,21:24
+SENSOR_0446,Bogotá,Comercial,7.91,29.5,44,True,47.9,Dañina para grupos sensibles,09:08
+SENSOR_0447,Bucaramanga,Parque Natural,134.12,17.1,40,False,74.8,Peligrosa,08:02
+SENSOR_0448,Medellín,Residencial,87.55,35.3,53,False,45.3,Dañina para grupos sensibles,09:40
+SENSOR_0449,Barranquilla,Vía Principal,122.73,14.7,33,True,73.2,Peligrosa,07:47
+SENSOR_0450,Barranquilla,Vía Principal,122.15,30.4,42,False,54.3,Peligrosa,12:18
+SENSOR_0451,Bucaramanga,Comercial,32.53,25.0,86,False,49.9,Buena,20:19
+SENSOR_0452,Medellín,Parque Natural,20.97,34.6,66,False,86.8,Dañina para grupos sensibles,07:42
+SENSOR_0453,Barranquilla,Comercial,109.59,15.3,77,False,40.9,Peligrosa,00:52
+SENSOR_0454,Bucaramanga,Comercial,27.68,29.6,30,False,61.9,Buena,18:13
+SENSOR_0455,Barranquilla,Vía Principal,128.24,26.9,89,False,41.1,Moderada,22:24
+SENSOR_0456,Barranquilla,Comercial,110.3,24.5,41,False,64.2,Muy Dañina,10:36
+SENSOR_0457,Barranquilla,Residencial,127.06,24.8,50,True,65.1,Peligrosa,14:56
+SENSOR_0458,Cali,Comercial,48.36,30.8,40,False,56.1,Dañina,20:34
+SENSOR_0459,Medellín,Residencial,50.91,36.4,73,False,46.6,Buena,20:01
+SENSOR_0460,Bucaramanga,Vía Principal,102.33,14.4,87,False,58.8,Buena,05:46
+SENSOR_0461,Bucaramanga,Parque Natural,9.56,12.5,73,False,73.6,Peligrosa,11:09
+SENSOR_0462,Medellín,Residencial,110.34,32.9,63,False,79.1,Buena,16:23
+SENSOR_0463,Medellín,Parque Natural,126.19,14.8,54,False,66.5,Moderada,17:26
+SENSOR_0464,Medellín,Parque Natural,65.2,37.7,33,False,69.5,Buena,02:26
+SENSOR_0465,Medellín,Residencial,115.91,28.1,93,False,50.0,Muy Dañina,20:55
+SENSOR_0466,Bogotá,Vía Principal,30.32,28.9,45,False,54.4,Muy Dañina,16:42
+SENSOR_0467,Bucaramanga,Industrial,51.73,17.2,39,False,48.1,Dañina,01:27
+SENSOR_0468,Bogotá,Parque Natural,146.27,18.2,64,True,52.5,Moderada,16:07
+SENSOR_0469,Barranquilla,Parque Natural,148.02,29.1,35,False,51.2,Muy Dañina,00:53
+SENSOR_0470,Barranquilla,Vía Principal,79.33,35.7,48,True,66.0,Peligrosa,14:00
+SENSOR_0471,Bucaramanga,Vía Principal,140.47,37.5,88,True,68.1,Dañina para grupos sensibles,17:31
+SENSOR_0472,Barranquilla,Comercial,80.8,17.1,82,False,87.2,Dañina para grupos sensibles,04:32
+SENSOR_0473,Medellín,Vía Principal,47.28,15.5,37,False,49.8,Dañina para grupos sensibles,08:57
+SENSOR_0474,Bogotá,Parque Natural,43.7,13.5,39,False,72.1,Peligrosa,17:02
+SENSOR_0475,Medellín,Residencial,139.78,34.6,67,False,80.9,Buena,11:33
+SENSOR_0476,Barranquilla,Industrial,30.0,19.7,58,False,68.0,Peligrosa,09:10
+SENSOR_0477,Bogotá,Comercial,89.05,12.0,44,False,52.8,Buena,21:53
+SENSOR_0478,Medellín,Residencial,85.55,17.8,52,False,53.1,Dañina para grupos sensibles,20:58
+SENSOR_0479,Bucaramanga,Industrial,112.25,20.9,75,False,42.0,Dañina,18:38
+SENSOR_0480,Medellín,Industrial,77.39,37.8,57,False,55.3,Dañina,13:35
+SENSOR_0481,Barranquilla,Industrial,44.48,25.6,55,False,77.2,Buena,05:05
+SENSOR_0482,Bogotá,Residencial,29.56,17.3,39,False,42.4,Dañina para grupos sensibles,08:38
+SENSOR_0483,Bucaramanga,Comercial,95.02,20.7,76,True,51.0,Peligrosa,14:22
+SENSOR_0484,Bogotá,Comercial,109.25,20.6,33,True,75.3,Dañina,03:45
+SENSOR_0485,Bucaramanga,Industrial,87.58,12.5,84,True,79.1,Buena,23:48
+SENSOR_0486,Bogotá,Residencial,112.06,15.5,36,True,62.8,Peligrosa,17:55
+SENSOR_0487,Barranquilla,Industrial,25.52,30.1,84,False,74.9,Dañina para grupos sensibles,10:04
+SENSOR_0488,Bucaramanga,Vía Principal,132.96,15.1,60,True,59.4,Moderada,19:08
+SENSOR_0489,Cali,Comercial,89.45,18.0,48,True,48.0,Dañina para grupos sensibles,04:12
+SENSOR_0490,Bogotá,Parque Natural,23.39,21.1,57,True,59.9,Dañina para grupos sensibles,04:35
+SENSOR_0491,Bogotá,Industrial,71.98,31.7,57,True,69.0,Peligrosa,15:26
+SENSOR_0492,Medellín,Vía Principal,127.49,27.1,48,True,87.4,Peligrosa,13:23
+SENSOR_0493,Bucaramanga,Comercial,135.15,29.9,49,False,43.4,Muy Dañina,02:23
+SENSOR_0494,Cali,Residencial,43.37,26.7,42,False,65.4,Muy Dañina,20:45
+SENSOR_0495,Barranquilla,Comercial,108.13,29.8,72,True,56.4,Peligrosa,18:28
+SENSOR_0496,Medellín,Residencial,19.5,12.1,40,False,65.4,Peligrosa,06:30
+SENSOR_0497,Cali,Residencial,9.86,36.2,77,False,41.2,Moderada,02:08
+SENSOR_0498,Bucaramanga,Industrial,86.26,14.9,44,True,55.7,Moderada,03:25
+SENSOR_0499,Cali,Industrial,105.75,22.6,46,False,81.0,Dañina para grupos sensibles,01:24
