@@ -59,8 +59,23 @@ GROQ_MODELS = {
 }
 
 
-def interpretar_con_groq(api_key, modelo, proyecto, pregunta, contexto):
-    """Llama a la API de Groq y devuelve la interpretación en texto."""
+def groq_chat(api_key, modelo, mensajes, temperatura=0.4, max_tokens=900):
+    """Llama al endpoint de chat de Groq con una lista de mensajes y devuelve el texto."""
+    payload = {
+        "model": modelo,
+        "messages": mensajes,
+        "temperature": float(temperatura),
+        "max_tokens": int(max_tokens),
+    }
+    headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
+    resp = requests.post(GROQ_URL, headers=headers, json=payload, timeout=60)
+    resp.raise_for_status()
+    return resp.json()["choices"][0]["message"]["content"]
+
+
+def interpretar_con_groq(api_key, modelo, proyecto, pregunta, contexto,
+                         temperatura=0.4, max_tokens=900):
+    """Interpretación de una sola pasada de los resultados calculados."""
     system = (
         "Eres un analista de datos senior. Interpretas resultados de forma clara, "
         "rigurosa y accionable, en español. NO inventas cifras: usas únicamente los "
@@ -74,19 +89,30 @@ def interpretar_con_groq(api_key, modelo, proyecto, pregunta, contexto):
         f"Resultados calculados a partir de los datos (no los contradigas):\n{contexto}\n\n"
         "Redacta una interpretación profesional de 250 a 400 palabras."
     )
-    payload = {
-        "model": modelo,
-        "messages": [
-            {"role": "system", "content": system},
-            {"role": "user", "content": user},
-        ],
-        "temperature": 0.4,
-        "max_tokens": 900,
-    }
-    headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
-    resp = requests.post(GROQ_URL, headers=headers, json=payload, timeout=60)
-    resp.raise_for_status()
-    return resp.json()["choices"][0]["message"]["content"]
+    mensajes = [{"role": "system", "content": system}, {"role": "user", "content": user}]
+    return groq_chat(api_key, modelo, mensajes, temperatura, max_tokens)
+
+
+def error_groq_texto(e):
+    """Traduce una excepción de la llamada a Groq en un mensaje claro para el usuario."""
+    if isinstance(e, requests.exceptions.HTTPError):
+        code = e.response.status_code if e.response is not None else "?"
+        detalle = ""
+        try:
+            detalle = e.response.json().get("error", {}).get("message", "")
+        except Exception:
+            pass
+        if code == 401:
+            return "API key inválida o expirada (401). Verifica tu key de Groq."
+        if code == 404 or (code == 400 and "model" in detalle.lower()):
+            return f"El modelo seleccionado no está disponible. Prueba otro en la barra lateral. Detalle: {detalle}"
+        if code == 429:
+            return ("Límite de uso alcanzado (429). Espera un momento y reintenta, "
+                    "o usa un modelo con mayor cupo (p. ej. Llama 3.1 8B).")
+        return f"Error {code} de Groq: {detalle or e}"
+    if isinstance(e, requests.exceptions.RequestException):
+        return f"No se pudo conectar con Groq: {e}"
+    return f"No se pudo generar la respuesta: {e}"
 
 
 # ================================================================== #
@@ -233,7 +259,7 @@ def seccion_eda(df, num_cols, cat_cols):
 
 
 def seccion_reportes(df, nombre, proyecto, pregunta, contexto_fn,
-                     groq_key, groq_model, extra_fn=None):
+                     groq_key, groq_model, groq_temp, groq_maxtok, extra_fn=None):
     st.title("📄 Generación de reportes")
     st.markdown("Descarga los datos procesados y un resumen ejecutivo. Respetan los filtros activos.")
     st.download_button(
@@ -243,56 +269,80 @@ def seccion_reportes(df, nombre, proyecto, pregunta, contexto_fn,
     if extra_fn is not None:
         extra_fn(df)
 
-    # ---- Interpretación de resultados con IA (Groq) ----
+    # ---- Interpretación de resultados con IA (una sola pasada) ----
     st.markdown("---")
     st.subheader("🤖 Interpretación de resultados con IA")
-    ss_key = f"interp_{proyecto}"
     if not groq_key:
         st.info("Ingresa tu **API Key de Groq** en la barra lateral (sección «🤖 Interpretación "
-                "con IA») para generar una interpretación automática de los resultados filtrados.")
-    else:
-        c1, c2 = st.columns([1, 3])
-        generar = c1.button("✨ Generar interpretación", key=f"gen_{proyecto}")
-        c2.caption(f"Modelo: `{groq_model}` · usa los datos con los filtros actuales")
-        if generar:
-            with st.spinner("Consultando al modelo de Groq…"):
-                try:
-                    contexto = contexto_fn(df)
-                    st.session_state[ss_key] = interpretar_con_groq(
-                        groq_key, groq_model, proyecto, pregunta, contexto)
-                except requests.exceptions.HTTPError as e:
-                    st.session_state[ss_key] = None
-                    code = e.response.status_code if e.response is not None else "?"
-                    detalle = ""
-                    try:
-                        detalle = e.response.json().get("error", {}).get("message", "")
-                    except Exception:
-                        pass
-                    if code == 401:
-                        st.error("API key inválida o expirada (401). Verifica tu key de Groq.")
-                    elif code == 404 or (code == 400 and "model" in detalle.lower()):
-                        st.error(f"El modelo `{groq_model}` no está disponible. "
-                                 f"Prueba otro en la barra lateral. Detalle: {detalle}")
-                    elif code == 429:
-                        st.error("Límite de uso alcanzado (429). Espera un momento y reintenta, "
-                                 "o usa un modelo con mayor cupo (p. ej. Llama 3.1 8B).")
-                    else:
-                        st.error(f"Error {code} de Groq: {detalle or e}")
-                except requests.exceptions.RequestException as e:
-                    st.session_state[ss_key] = None
-                    st.error(f"No se pudo conectar con Groq: {e}")
-                except Exception as e:
-                    st.session_state[ss_key] = None
-                    st.error(f"No se pudo generar la interpretación: {e}")
+                "con IA») para generar la interpretación y conversar con el modelo.")
+        return
 
-        if st.session_state.get(ss_key):
-            st.markdown(st.session_state[ss_key])
-            st.download_button(
-                "⬇️ Descargar interpretación (TXT)",
-                st.session_state[ss_key].encode("utf-8"),
-                f"{nombre}_interpretacion_ia.txt", "text/plain",
-                key=f"dl_interp_{proyecto}")
-            st.caption("Generado por IA a partir de los resultados calculados. Revísalo antes de usarlo.")
+    ss_key = f"interp_{proyecto}"
+    c1, c2 = st.columns([1, 3])
+    generar = c1.button("✨ Generar interpretación", key=f"gen_{proyecto}")
+    c2.caption(f"Modelo: `{groq_model}` · temp {groq_temp} · {groq_maxtok} tokens · filtros actuales")
+    if generar:
+        with st.spinner("Consultando al modelo de Groq…"):
+            try:
+                contexto = contexto_fn(df)
+                st.session_state[ss_key] = interpretar_con_groq(
+                    groq_key, groq_model, proyecto, pregunta, contexto,
+                    temperatura=groq_temp, max_tokens=groq_maxtok)
+            except Exception as e:
+                st.session_state[ss_key] = None
+                st.error(error_groq_texto(e))
+
+    if st.session_state.get(ss_key):
+        st.markdown(st.session_state[ss_key])
+        st.download_button(
+            "⬇️ Descargar interpretación (TXT)",
+            st.session_state[ss_key].encode("utf-8"),
+            f"{nombre}_interpretacion_ia.txt", "text/plain",
+            key=f"dl_interp_{proyecto}")
+        st.caption("Generado por IA a partir de los resultados calculados. Revísalo antes de usarlo.")
+
+    # ---- Chatbot: conversación libre sobre los datos ----
+    st.markdown("---")
+    st.subheader("💬 Conversa con la IA sobre estos resultados")
+    chat_key = f"chat_{proyecto}"
+    if chat_key not in st.session_state:
+        st.session_state[chat_key] = []
+
+    cc1, cc2 = st.columns([1, 3])
+    if cc1.button("🗑️ Limpiar chat", key=f"clear_{proyecto}"):
+        st.session_state[chat_key] = []
+    cc2.caption("El asistente responde apoyándose solo en los datos filtrados de este entorno.")
+
+    # Historial visible
+    for msg in st.session_state[chat_key]:
+        with st.chat_message(msg["role"]):
+            st.markdown(msg["content"])
+
+    prompt = st.chat_input(f"Pregunta sobre {nombre.replace('_', ' ')}… "
+                           "(ej. ¿cuál es el mayor riesgo y por qué?)",
+                           key=f"chatin_{proyecto}")
+    if prompt:
+        st.session_state[chat_key].append({"role": "user", "content": prompt})
+        with st.chat_message("user"):
+            st.markdown(prompt)
+        contexto = contexto_fn(df)
+        system = (
+            "Eres un analista de datos senior que conversa en español sobre un proyecto. "
+            "Respondes de forma breve y clara, apoyándote ÚNICAMENTE en los datos que se "
+            "listan a continuación; si te preguntan algo que no está en ellos, dilo con "
+            f"honestidad.\n\nPregunta de negocio del proyecto: {pregunta}\n"
+            f"Datos calculados (con los filtros actuales):\n{contexto}"
+        )
+        mensajes = [{"role": "system", "content": system}] + st.session_state[chat_key]
+        with st.chat_message("assistant"):
+            with st.spinner("Pensando…"):
+                try:
+                    respuesta = groq_chat(groq_key, groq_model, mensajes,
+                                          temperatura=groq_temp, max_tokens=groq_maxtok)
+                    st.markdown(respuesta)
+                    st.session_state[chat_key].append({"role": "assistant", "content": respuesta})
+                except Exception as e:
+                    st.error(error_groq_texto(e))
 
 
 def storytelling_generico(df, num_vars, dims, accent="flare"):
@@ -846,6 +896,12 @@ with st.sidebar.expander("Configurar Groq", expanded=False):
         placeholder="ej. llama-3.3-70b-versatile",
         help="Si Groq cambia su catálogo, escribe aquí el ID exacto del modelo.")
     groq_model = modelo_custom.strip() if modelo_custom.strip() else GROQ_MODELS[modelo_label]
+    groq_temp = st.slider(
+        "🌡️ Temperatura", 0.0, 2.0, 0.4, 0.1, key="groq_temp",
+        help="Más baja = respuestas precisas y consistentes. Más alta = más creativas y variadas.")
+    groq_maxtok = st.slider(
+        "📏 Máx. tokens de respuesta", 256, 4096, 1024, 128, key="groq_maxtok",
+        help="Longitud máxima de la respuesta. Más tokens = respuestas más largas (y más lentas).")
     st.caption("Consíguela gratis (sin tarjeta) en console.groq.com/keys")
 
 st.sidebar.markdown("---")
@@ -872,4 +928,4 @@ elif seccion == "🎯 Pregunta de negocio":
 elif seccion == "📄 Reportes":
     nombre = proyecto.split(" ", 1)[1].lower().replace(" ", "_")
     seccion_reportes(df, nombre, proyecto, cfg["pregunta"], cfg["contexto"],
-                     groq_key, groq_model, cfg["reporte_extra"])
+                     groq_key, groq_model, groq_temp, groq_maxtok, cfg["reporte_extra"])
